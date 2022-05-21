@@ -1,0 +1,44 @@
+.Section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	left: 20%;
+	width: 80%;
+	padding: 1rem;
+	padding-right: 2rem;
+	animation-name: fade-in;
+	animation-duration: 1s;
+	opacity: 0;
+	animation-name: fade-in;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+.SectionTitle {
+	margin: 1rem 0;
+	color: rgba(52, 71, 103, 1);
+}
+
+@keyframes fade-in {
+	to {
+		opacity: 1;
+	}
+}
+
+.SectionText {
+	font-size: 0.8rem;
+}
+
+.ImageAndText {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.ImageAndText img {
+	width: 40%;
+	height: auto;
+	margin-right: 2rem;
+}

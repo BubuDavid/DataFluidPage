@@ -1,0 +1,58 @@
+.SideBar {
+	position: fixed;
+	height: 100%;
+	padding: 2rem;
+	width: 20%;
+	overflow-y: scroll;
+}
+
+.SideBar hr {
+	margin-bottom: 1rem;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(52, 71, 103, 0), rgba(52, 71, 103, 0.75), rgba(52, 71, 103, 0));
+}
+
+.SideBarSectionTitle {
+	text-align: center;
+}
+
+.SideBarMenu {
+	list-style-type: none;
+}
+
+.MenuItem {
+	font-size: 0.8rem;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	margin-bottom: 1rem;
+	cursor: pointer;
+	transition: all 300ms ease;
+	border-radius: 10px;
+	padding: 0.5rem;
+}
+
+.MenuItem.active {
+	color: rgba(52, 71, 103, 1);
+	font-weight: 800;
+	box-shadow: 0 0 5px rgba(52, 71, 103, 1);
+}
+
+.MenuItem i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 1rem;
+	color: rgba(52, 71, 103, 1);
+	border-radius: 10px;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+	transition: background 300ms ease;
+
+}
+
+.MenuItem.active i {
+	color: white; 
+	background: rgb(203, 12, 159);
+}
