@@ -96,3 +96,28 @@
 	justify-content: space-around;
 	align-items: center;
 }
+
+@media only screen and (max-width: 900px){
+	.Ubicacion {
+		width: 20%;
+	}
+	.SectionTitle {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.FormItem {
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.FormItem {
+		padding: 0.3rem;
+		font-size: 0.5rem;
+	}
+	.FormSelector {
+		width: 50%;
+	}
+}

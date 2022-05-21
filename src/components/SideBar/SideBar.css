@@ -56,3 +56,12 @@
 	color: white; 
 	background: rgb(203, 12, 159);
 }
+
+@media only screen and (max-width: 1000px) {
+	.SideBar {
+		display: none;
+	}
+	.Main {
+		left: 0;
+	}
+}

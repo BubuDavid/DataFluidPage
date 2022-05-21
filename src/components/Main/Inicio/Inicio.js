@@ -1,23 +1,24 @@
+import Logo from '../../SideBar/components/Logo/Logo'
 import './Inicio.css'
 export default function Inicio() {
 	return (
 		<div className='Inicio Section'>
 			<h2 className='SectionTitle'>
-				Bordos - La Película
+			<Logo />	<span>By Dataket</span>
 			</h2>
 			<hr />
 			<div className='ImageAndText'>
-				<img src='https://imagenzac.com.mx/wp-content/uploads/2021/08/mega-bordo.jpg' />
+				<img src={process.env.PUBLIC_URL + "/assets/satelite1.jpg"} />
 				<p className='SectionText'>
-					Maecenas rutrum maximus pharetra. Ut luctus leo sit amet lectus feugiat, vitae dapibus justo maximus. Nam a justo mattis, cursus ex sit amet, efficitur dolor. Donec ut nibh porttitor, vestibulum dolor quis, molestie magna. Morbi lorem urna, ultrices a fermentum ac, rhoncus non tellus. Phasellus purus sem, pulvinar ut leo sed, dictum vehicula dolor. Suspendisse eleifend justo mauris, vitae fermentum risus finibus ut. Pellentesque malesuada, odio id iaculis placerat, massa sapien egestas felis, vitae hendrerit sapien urna non orci. Sed ornare posuere orci, sed dictum ligula imperdiet lacinia. Pellentesque metus ex, bibendum vitae lacus eu, vestibulum convallis nunc.
+				El cambio climático ha cambiado de manera significativa la periodicidad de las lluvias y la cantidad de precipitiación mensual. Además, la disponibilidad constante y segura de agua es fundamental para la mayoria de actividades productivas básicas, como la agricultura y la ganadería, que ocupan mas del 70% del agua extraida y son los pilares fundamentales de la seguridad alimentaria.
 				</p>
 			</div>
 			<br />
 			<div className='ImageAndText'>
 				<p className='SectionText'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis ligula eu condimentum tempor. Praesent ut commodo erat, et laoreet dolor. Etiam in tristique arcu. Donec fringilla ligula at molestie tincidunt. Praesent porta elementum erat ac egestas. Ut metus mi, feugiat nec posuere non, egestas ut nulla. Nulla fermentum euismod ex quis varius. Mauris non justo sit amet augue molestie fringilla non eget purus. Ut mi felis, dictum sed urna quis, dapibus porta dui.
+				Múltiples actividades se ven amenzadas por posibles periodos de sequía, especialmente para aquellos lugares remotos. La retención de agua en estos lugares es fundamental para el abastecimiento constante. Una solución común son las cuencas de agua, o bordos, pero hasta el día de hoy se realizan frecuentemente sin los estudios necesarios que optimicen la captación y garanticen la viabilidad un bordo. Como ejemplo, la CONAGUA solo monitorea alrededor de 210 presas, y existen más de 6500 presas pequeñas y bordos que se encuentran sin monitoreo y registro. En esta otra imagen, vemos una serie de bordos desborados en la sierra de lobos, mismo que se pudo evitar.
 				</p>
-				<img src='https://i.imgur.com/o2cWnuk.jpg' />
+				<img src={process.env.PUBLIC_URL + "/assets/satelite2.jpg"} />
 			</div>
 
 		</div>

@@ -42,3 +42,28 @@
 	height: auto;
 	margin-right: 2rem;
 }
+
+@media only screen and (max-width: 1000px) {
+	.Section {
+		padding: 0 2rem;
+		left: 0;
+		width: 100%;
+	}
+
+	.ImageAndText {
+		flex-direction: column;
+	}
+	.ImageAndText img {
+		margin-bottom: 1rem;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.ImageAndText img {
+		width: 80%;
+	}
+
+	.SectionText	 {
+		font-size: 0.5rem;
+	}
+}

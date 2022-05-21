@@ -90,7 +90,7 @@ export default function SideBar() {
 					)
 				})}
 			</ul>
-			<h3 className='SideBarSectionTitle'>- Sesión -</h3>
+			{/* <h3 className='SideBarSectionTitle'>- Sesión -</h3>
 			<ul className='SideBarMenu'>
 				{SessionSections.map((section, key) => {
 						return (
@@ -105,7 +105,7 @@ export default function SideBar() {
 							</li>
 						)
 					})}
-			</ul>
+			</ul> */}
 		</div>
 	)
 }

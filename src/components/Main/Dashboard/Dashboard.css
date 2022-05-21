@@ -29,6 +29,7 @@ img.Plot {
 	box-shadow: 0 0 5px rgba(52, 71, 103, 1);
 	transition: all 300ms ease-in-out;
 	cursor: pointer;
+	margin-bottom: 2rem;
 }
 
 .Plot:hover {
