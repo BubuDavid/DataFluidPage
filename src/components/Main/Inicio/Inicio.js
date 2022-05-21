@@ -4,7 +4,7 @@ export default function Inicio() {
 	return (
 		<div className='Inicio Section'>
 			<h2 className='SectionTitle'>
-			<Logo />	<span>By Dataket</span>
+			<Logo />
 			</h2>
 			<hr />
 			<div className='ImageAndText'>

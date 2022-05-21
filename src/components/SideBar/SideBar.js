@@ -35,13 +35,14 @@ const sections = [
 		"iconFill": <BsPieChartFill />,
 		"iconOut": <BsPieChart />,
 	},
-	{
-		"name": "Acerca",
-		"nickname": "Acerca de nosotros",
-		"iconFill": <BsPeopleFill />,
-		"iconOut": <BsPeople />,
-	},
 ]
+
+const about = {
+	"name": "Acerca",
+	"nickname": "Acerca de nosotros",
+	"iconFill": <BsPeopleFill />,
+	"iconOut": <BsPeople />,
+}
 
 const SessionSections = [
 	{
@@ -94,6 +95,20 @@ export default function SideBar() {
 						</li>
 					)
 				})}
+			</ul>
+			<ul className='SideBarMenu Final'>
+				<hr />
+				<li
+					className={currentSection === about.name ? 'MenuItem active': "MenuItem"}
+					onClick={() => {
+						setCurrentSection(about.name)
+						const sideBar = document.getElementById("SideBar")
+						sideBar.classList.toggle("Active")
+					}}>
+					<i>
+						{currentSection === about.name ? about.iconFill : about.iconOut}
+					</i> {about.nickname}
+				</li>
 			</ul>
 			{/* <h3 className='SideBarSectionTitle'>- Sesión -</h3>
 			<ul className='SideBarMenu'>

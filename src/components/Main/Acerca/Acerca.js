@@ -6,19 +6,19 @@ const members = [
 		"name": "David (Bubu 🦕) Pedroza Segoviano",
 		"age": 22,
 		"description": [
-			"Estudiante de Física en la UG 🐝",
+			"Estudiante de Física - UG 🐝",
 			"Analista en Deloitte 💚",
 			"Desarrollador Web Js. 🕸️",
 		],
 		"img": process.env.PUBLIC_URL + "/assets/bubu.jpg"
 	},
 	{
-		"name": "Missa (lchicha 🌭) El",
+		"name": "Missael Barco",
 		"age": 22,
 		"description": [
-			"Estudiante de Física en la UG 🐝",
-			"Casi Jarbar ⚓",
-			"Machine Learning Enthusiast 🐍",
+			"Estudiante de Física - UG 🐝",
+			"Campus Expert 🚩",
+			"Entusiasta del ML 🐍",
 		],
 		"img": process.env.PUBLIC_URL + "/assets/missa.jpg"
 	},
@@ -26,7 +26,7 @@ const members = [
 		"name": "Hector Nieto",
 		"age": 22,
 		"description": [
-		"Estudiante de Física en la UG 🐝",
+			"Estudiante de Física - UG 🐝",
 		"Taylor Swift Enthusiast 🐍",
 		],
 		"img": process.env.PUBLIC_URL + "/assets/hector.jfif"
@@ -45,7 +45,7 @@ const members = [
 		"name": "Gil Rodríguez",
 		"age": 23,
 		"description": [
-			"Estudiante de Física en la UG 🐝",
+			"Estudiante de Física - UG 🐝",
 			"Científico de datos en Citibanamex 📈",
 			"Cat person 🐱",
 		],
