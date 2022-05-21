@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DataFluidPage/static/css/main.6d6424c0.css",
-    "main.js": "/DataFluidPage/static/js/main.0776eacf.js",
+    "main.css": "/DataFluidPage/static/css/main.4c8b6742.css",
+    "main.js": "/DataFluidPage/static/js/main.c6c5b845.js",
     "index.html": "/DataFluidPage/index.html",
-    "main.6d6424c0.css.map": "/DataFluidPage/static/css/main.6d6424c0.css.map",
-    "main.0776eacf.js.map": "/DataFluidPage/static/js/main.0776eacf.js.map"
+    "main.4c8b6742.css.map": "/DataFluidPage/static/css/main.4c8b6742.css.map",
+    "main.c6c5b845.js.map": "/DataFluidPage/static/js/main.c6c5b845.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d6424c0.css",
-    "static/js/main.0776eacf.js"
+    "static/css/main.4c8b6742.css",
+    "static/js/main.c6c5b845.js"
   ]
 }
