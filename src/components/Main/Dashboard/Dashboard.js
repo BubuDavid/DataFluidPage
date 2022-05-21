@@ -46,31 +46,34 @@ export default function Dashboard() {
 				>
             <p>backup content</p>
 					</object>
-					<img className='Plot' src={process.env.PUBLIC_URL + "/assets/plot-1.png"}/>
+					<object
+						type="text/html"
+						className='Plot'
+					style={{
+						width: "400px",
+						height: "400px"
+					}}
+					data={process.env.PUBLIC_URL + "/assets/PIE.html"}
+				>
+            <p>backup content</p>
+					</object>
 				</div> 	
 
 				<div
 					className='row'
 				>
-					<div
-					className='Plot'>
-						<XYPlot className='col-1' width={300} height={300}>
-							<VerticalGridLines />
-							<HorizontalGridLines />
-							<XAxis />
-							<YAxis />
-							<LineSeries data={data} />
-						</XYPlot>
-					</div>
-					<div
-					className='Plot'>
-						<RadialChart
-							width={600}
-							height={300}
-							data={myData}
-							className='col-3'
-						/>
-					</div>
+					<img className='Plot' src={process.env.PUBLIC_URL + "/assets/plot-1.png"}/>
+					<object
+						type="text/html"
+						className='Plot'
+					style={{
+						width: "600px",
+						height: "300px"
+					}}
+					data={process.env.PUBLIC_URL + "/assets/plot-3.html"}
+				>
+            <p>backup content</p>
+					</object>
 				</div>
 			</div>
 

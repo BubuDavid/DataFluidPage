@@ -7,9 +7,8 @@
 	padding: 1rem;
 	margin-top: 5rem;
 	border-radius: 10px;
-	border: 1px solid #CB0C9F;
-	box-shadow: 0 0 10px #CB0C9F;
-	min-height: 400px;
+	box-shadow: 0 0 5px rgba(52, 71, 103, 1);
+	min-height: 500px;
 	width: 80%;
 }
 
@@ -20,7 +19,7 @@
 }
 
 .FormTitle {
-	margin-bottom: 1rem;
+	margin: 1rem 0;
 	text-align: center;
 }
 
@@ -31,6 +30,14 @@
 	padding: 1rem;
 	border: none;
 	border: 1px solid rgba(52, 71, 103, 1);
+	text-align: center;
+}
+
+.ItemContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .SubmitBtn {
@@ -43,13 +50,27 @@
 	border: 1px solid #CB0C9F;
 	position: absolute;
 	bottom: 1rem;
+	text-align: center;
+	left: calc(50% - 1rem);
 	cursor: pointer;
 	transition: all 300ms ease-in-out;
+	/* pointer-events: none;
+	opacity: 0.5; */
 }
 
 .SubmitBtn:hover {
 	background-color: #CB0C9F;
 	color: white;
+}
+
+.Ubicacion {
+	width: 10rem;
+}
+
+.ItemContainer.Selectors {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
 }
 
 .FormItem {
@@ -64,7 +85,8 @@
 	transition: all 300ms ease-in-out;
 }
 
-.FormItem:hover {
+.FormItem:hover,
+.FormItem.Active {
 	background-color: #CB0C9F;
 	color: white;
 }

@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react'
+import { MyContext } from '../../Context'
 import './Formulario.css'
 
 const tipos = [
@@ -9,7 +10,10 @@ const tipos = [
 ]
 
 export default function Formulario() {
-	const [chosen, setChosen] = useState(0)
+	const {
+		setCurrentSection
+	} = useContext(MyContext)
+	const [currentTipo, setCurrentTipo] = useState(-1)
 
 	return (
 		<div className='Section Formulario'>
@@ -20,12 +24,46 @@ export default function Formulario() {
 			<div className='FormContainer'>
 				<h3 className='FormTitle'>Tipo de uso</h3>
 				<ul className='FormItems'>
-						<li className='FormItem'>Riego</li>
-						<li className='FormItem'>Ganadería</li>
-						<li className='FormItem'>Recreativo</li>
-						<li className='FormItem'>Cría</li>
-					<button className='SubmitBtn'>Enviar</button>
+					{tipos.map((tipo, key) => {
+						return (
+							<li
+								key={key}
+								className={currentTipo == key ? "FormItem Active" : "FormItem"}
+								onClick={() => setCurrentTipo(key)}
+							>
+								{tipo}
+							</li>
+						)
+					})}
 				</ul>
+				<h3 className='FormTitle'>Gasto en litros</h3>
+				<div className='ItemContainer'>
+					<input
+						placeholder='10'
+						className='FormSelector'
+					></input>
+				</div>
+				<h3 className='FormTitle'>Límites de tu territorio</h3>
+				
+				<div className='ItemContainer Selectors'>
+					<input
+						placeholder='Latitud1'
+						className='FormSelector Ubicacion'
+					></input>
+										<input
+						placeholder='Longitud1'
+						className='FormSelector Ubicacion'
+					></input>
+										<input
+						placeholder='Latitud2'
+						className='FormSelector Ubicacion'
+					></input>
+										<input
+						placeholder='Longitud2'
+						className='FormSelector Ubicacion'
+					></input>
+				</div>
+					<button className='SubmitBtn' onClick={() => setCurrentSection("Dashboard")}>Enviar</button>
 			</div>
 
 		</div>
