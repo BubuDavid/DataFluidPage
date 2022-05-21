@@ -57,11 +57,40 @@
 	background: rgb(203, 12, 159);
 }
 
+.ActiveBtn {
+	display: none;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+
+	padding: 1rem;
+	font-size: 1rem;
+	background-color: white;
+	border-radius: 10px;
+	border: none;
+	border: 1px solid rgb(203, 12, 159);
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.ActiveBtn:hover {
+	background-color: rgb(203, 12, 159);
+	color: white;
+}
+
 @media only screen and (max-width: 1000px) {
 	.SideBar {
 		display: none;
 	}
-	.Main {
-		left: 0;
+
+	.SideBar.Active {
+		background-color: white;
+		width: 100%;
+		z-index: 999;
+		display: block;
+	}
+
+	.ActiveBtn {
+		display: block;
 	}
 }

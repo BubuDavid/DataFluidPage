@@ -73,6 +73,7 @@ export default function SideBar() {
 	return (
 		<div
 			className='SideBar'
+			id='SideBar'
 		>
 			<Logo />
 			<hr />
@@ -82,7 +83,11 @@ export default function SideBar() {
 						<li
 							className={currentSection === section.name ? 'MenuItem active': "MenuItem"}
 							key={key}
-							onClick={() => setCurrentSection(section.name)}>
+							onClick={() => {
+								setCurrentSection(section.name)
+								const sideBar = document.getElementById("SideBar")
+								sideBar.classList.toggle("Active")
+							}}>
 							<i>
 								{currentSection === section.name ? section.iconFill : section.iconOut}
 							</i> {section.nickname}
