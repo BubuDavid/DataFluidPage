@@ -10,7 +10,7 @@ const members = [
 			"Analista en Deloitte 💚",
 			"Desarrollador Web Js. 🕸️",
 		],
-		"img": process.env.PUBLIC_URL + "assets/bubu.jpg"
+		"img": process.env.PUBLIC_URL + "/assets/bubu.jpg"
 	},
 	{
 		"name": "Missa (lchicha 🌭) El",
@@ -20,7 +20,7 @@ const members = [
 			"Casi Jarbar ⚓",
 			"Machine Learning Enthusiast 🐍",
 		],
-		"img": process.env.PUBLIC_URL + "assets/missa.jpg"
+		"img": process.env.PUBLIC_URL + "/assets/missa.jpg"
 	},
 	{
 		"name": "Pocoyosita (Teff 🌭) Any",
@@ -30,7 +30,7 @@ const members = [
 			"Empowerada sisenor 💪",
 			"Programadora skillfull 👩‍💻",
 		],
-		"img": process.env.PUBLIC_URL + "assets/teff.jpg"
+		"img": process.env.PUBLIC_URL + "/assets/teff.jpg"
 	},
 	{
 		"name": "Pocoyosita (Teff 🌭) Any",
@@ -40,7 +40,7 @@ const members = [
 			"Empowerada sisenor 💪",
 			"Programadora skillfull 👩‍💻",
 		],
-		"img": process.env.PUBLIC_URL + "assets/teff.jpg"
+		"img": process.env.PUBLIC_URL + "/assets/teff.jpg"
 	},
 	{
 		"name": "Pocoyosita (Teff 🌭) Any",
@@ -50,7 +50,7 @@ const members = [
 			"Empowerada sisenor 💪",
 			"Programadora skillfull 👩‍💻",
 		],
-		"img": process.env.PUBLIC_URL + "assets/teff.jpg"
+		"img": process.env.PUBLIC_URL + "/assets/teff.jpg"
 	}
 ]
 
