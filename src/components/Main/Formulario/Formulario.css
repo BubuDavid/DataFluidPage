@@ -1,0 +1,76 @@
+.Formulario {
+	padding: 3rem;
+}
+
+.FormContainer {
+	position: relative;
+	padding: 1rem;
+	margin-top: 5rem;
+	border-radius: 10px;
+	border: 1px solid #CB0C9F;
+	box-shadow: 0 0 10px #CB0C9F;
+	min-height: 400px;
+	width: 80%;
+}
+
+.FormItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.FormTitle {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.FormSelector {
+	border-radius: 50rem;
+	color: #344767;
+	font-size: 1rem;
+	padding: 1rem;
+	border: none;
+	border: 1px solid rgba(52, 71, 103, 1);
+}
+
+.SubmitBtn {
+	padding: 1rem;
+	font-size: 1rem;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	background-color: white;
+	border: 1px solid #CB0C9F;
+	position: absolute;
+	bottom: 1rem;
+	cursor: pointer;
+	transition: all 300ms ease-in-out;
+}
+
+.SubmitBtn:hover {
+	background-color: #CB0C9F;
+	color: white;
+}
+
+.FormItem {
+	padding: 1rem;
+	font-size: 1rem;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	background-color: white;
+	border: 1px solid #CB0C9F;
+	cursor: pointer;
+	transition: all 300ms ease-in-out;
+}
+
+.FormItem:hover {
+	background-color: #CB0C9F;
+	color: white;
+}
+
+.FormItems {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}

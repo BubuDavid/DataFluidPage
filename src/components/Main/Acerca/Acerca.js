@@ -23,34 +23,33 @@ const members = [
 		"img": process.env.PUBLIC_URL + "/assets/missa.jpg"
 	},
 	{
-		"name": "Pocoyosita (Teff 🌭) Any",
-		"age": 10,
+		"name": "Hector Nieto",
+		"age": 22,
 		"description": [
-			"Baby4Eva 👶",
-			"Empowerada sisenor 💪",
-			"Programadora skillfull 👩‍💻",
+		"Estudiante de Física en la UG 🐝",
+		"Taylor Swift Enthusiast 🐍",
 		],
-		"img": process.env.PUBLIC_URL + "/assets/teff.jpg"
+		"img": process.env.PUBLIC_URL + "/assets/hector.jfif"
 	},
 	{
-		"name": "Pocoyosita (Teff 🌭) Any",
-		"age": 10,
+		"name": "Estefanía Saucedo",
+		"age": 20,
 		"description": [
-			"Baby4Eva 👶",
-			"Empowerada sisenor 💪",
-			"Programadora skillfull 👩‍💻",
+			"Estudiante de Ingeniería en Sistemas 💻",
+			"Microsoft Learn Student Ambassador 🟦",
+			"Voluntaria en organizaciones que promueven ciencia y tecnología 🧬",
 		],
-		"img": process.env.PUBLIC_URL + "/assets/teff.jpg"
+		"img": process.env.PUBLIC_URL + "/assets/teff.jfif"
 	},
 	{
-		"name": "Pocoyosita (Teff 🌭) Any",
-		"age": 10,
+		"name": "Gil Rodríguez",
+		"age": 23,
 		"description": [
-			"Baby4Eva 👶",
-			"Empowerada sisenor 💪",
-			"Programadora skillfull 👩‍💻",
+			"Estudiante de Física en la UG 🐝",
+			"Científico de datos en Citibanamex 📈",
+			"Cat person 🐱",
 		],
-		"img": process.env.PUBLIC_URL + "/assets/teff.jpg"
+		"img": process.env.PUBLIC_URL + "/assets/gil.jfif"
 	}
 ]
 

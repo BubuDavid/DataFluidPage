@@ -2,7 +2,7 @@
   "name": "data-fluid-page",
   "version": "0.1.0",
   "private": true,
-	"homepage": "http://BubuDavid.github.io/DataFluidPage",
+  "homepage": "http://BubuDavid.github.io/DataFluidPage",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -12,6 +12,7 @@
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.1",
     "react-scrollbars-custom": "^4.0.27",
+    "react-vis": "^1.11.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -19,8 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

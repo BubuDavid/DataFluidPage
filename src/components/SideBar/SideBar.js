@@ -4,6 +4,7 @@ import { AiFillHome, AiOutlineHome } from 'react-icons/ai'
 import { FaLightbulb, FaRegLightbulb } from 'react-icons/fa'
 import { BsPeople, BsPeopleFill, BsPieChartFill, BsPieChart } from 'react-icons/bs'
 import { IoPersonCircleSharp, IoPersonCircleOutline } from 'react-icons/io5'
+import { IoMdInformationCircle,	IoMdInformationCircleOutline } from 'react-icons/io'
 import { RiLoginCircleFill, RiLoginCircleLine } from 'react-icons/ri'
 import { BiLogOut } from 'react-icons/bi'
 import { MyContext } from '../Context/index'
@@ -23,16 +24,22 @@ const sections = [
 		"iconOut": <FaRegLightbulb />,
 	},
 	{
-		"name": "Acerca",
-		"nickname": "Acerca de nosotros",
-		"iconFill": <BsPeopleFill />,
-		"iconOut": <BsPeople />,
+		"name": "Formulario",
+		"nickname": "Formulario",
+		"iconFill": <IoMdInformationCircle />,
+		"iconOut": <IoMdInformationCircleOutline />,
 	},
 	{
 		"name": "Dashboard",
 		"nickname": "Dashboard",
 		"iconFill": <BsPieChartFill />,
 		"iconOut": <BsPieChart />,
+	},
+	{
+		"name": "Acerca",
+		"nickname": "Acerca de nosotros",
+		"iconFill": <BsPeopleFill />,
+		"iconOut": <BsPeople />,
 	},
 ]
 

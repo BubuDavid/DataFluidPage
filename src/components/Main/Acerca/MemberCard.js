@@ -4,7 +4,7 @@ export default function MemberCard({ member }) {
 		<div
 			className="MemberCard"
 			style={{
-				backgroundImage: `url(${member.img})`,
+				backgroundImage: `url(${member.img ? member.img : process.env.PUBLIC_URL + "/assets/default.jpg"})`,
 			}}
 		>
 			<div className="MemberCardBackground"></div>
